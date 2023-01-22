@@ -30,7 +30,7 @@ void setup(){
 }
 
 void loop(){
-  delay(1000); //1秒のちえん
+  delay(1000); //1秒の遅延
   M5.Lcd.setCursor(0,0);
   //時刻を表示する関数の呼び出し
   printLocalTime();
